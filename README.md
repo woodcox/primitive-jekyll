@@ -42,10 +42,6 @@ You can view `dist/test.html` or `docs/template.html` to see some example elemen
 
 - Dave Gamache for building [Skeleton CSS](http://getskeleton.com/), the original inspiration for building Primitive and understanding responsive CSS.
 
-## Contributing
-
-Please feel free to fork, comment, critique, or submit a pull request.
-
 ## Author
 
 - [Tania Rascia](https://www.taniarascia.com)
