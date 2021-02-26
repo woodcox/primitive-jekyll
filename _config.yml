@@ -59,8 +59,10 @@ kramdown:
 
 collections:
 
+# sass
 sass:
-  sass_dir: stylesheets/_sass/
+  sass_dir: '_sass'
+  style: compressed
 
 jekyll_get_json:
   - data: cscalendar
