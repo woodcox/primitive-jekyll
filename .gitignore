@@ -1,5 +1,5 @@
-# Ignore Node Modules
-node_modules
+# Ignore static pages
+_site/
 
 # Sass Cache
 .sass-cache
