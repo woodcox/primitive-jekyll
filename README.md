@@ -94,9 +94,6 @@ This gem offers some *main* layouts that can be used/edited:
 
 Inside the `_includes/` directory there are the partials that are used inside the layouts.
 
-The stylesheets of this gem can be edited both in `_sass/` and in `assets/css/main.scss`.
-The main colors of the theme can be found and customized in `_sass/variables.scss`.
-
 To edit the current JavaScript functions of the gem, the file you are looking for is in `assets/js/init.js`.
 
 Your blog posts (`*.md` files) should be put in the `_posts` directory.
