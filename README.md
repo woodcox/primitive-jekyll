@@ -76,8 +76,10 @@ Primitive-jekyll
 │             ├─── _forms.scss
 │             ├─── _grid.scss
 │             ├─── _helpers.scss
-│             ├─── _syntax.scss
-│             ├─── _tags.scss
+│             ├─── _layouts.scss
+│             ├─── _navigation.scss
+│             ├─── _navigation.scss
+│             └─── _navigation.scss
 │     
 └─── assets
      │
