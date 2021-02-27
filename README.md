@@ -2,9 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
 
-A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
+A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography. The beauty of Primitive is the ease with which you can create unique designs in a beautiful, simple system.
 
-### [View documentation](https://taniarascia.github.io/primitive)
+https://github.com/taniarascia/primitive.git
+
+Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
+
+You can view `dist/test.html` or `docs/template.html` to see some example elements as you make changes.
+
+### The original primitive UI is on [View documentation](https://taniarascia.github.io/primitive)
 
 ## Installation
 
@@ -19,20 +25,7 @@ A front-end design toolkit built with Jekyll & Sass for developing responsive st
 
 It's all set to go and your HTML elements will be given sensible default styling.
 
-### Sass integration (recommended)
 
-The beauty of Primitive is the ease with which you can create unique designs in a beautiful, simple system.
-
-https://github.com/taniarascia/primitive.git
-
-Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
-
-You can view `dist/test.html` or `docs/template.html` to see some example elements as you make changes.
-
-## 
-## License
-
-This project is open source and available under the [MIT License](LICENSE.md).
 
 
 Welcome to your **primitive-jekyll** theme! This is where [Materialize](http://materializecss.com/) meets [Jekyll](https://jekyllrb.com/).
@@ -50,7 +43,7 @@ gem "primitive-jekyll"
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: materialize-jekyll
+theme: primitive-jekyll
 ```
 
 And then execute:
@@ -61,8 +54,6 @@ Or install it yourself as:
 
     $ gem install primitive-jekyll
 
-
-> **Note**: ~~if you are hosting your site with [GitHub Pages](https://pages.github.com/) you will have to clone this project and copy the theme files manually to your directory.~~
 
 > Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: victorpre/materialize-jekyll` on your `_config.yml` file.
 
