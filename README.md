@@ -65,6 +65,10 @@ Primitive-jekyll
 ├─── _posts
 │
 ├─── _sass
+│      ├─── base
+│      │     ├─── mixins.scss
+│      │     ├─── normalize.scss
+│      │     ├─── reset.scss
 │      ├─── _author.scss
 │      ├─── _cards.scss
 │      ├─── _navbar.scss
