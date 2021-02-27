@@ -10,20 +10,8 @@ Now you can begin modifying variables in `variables.scss`. This file will define
 
 You can view `dist/test.html` or `docs/template.html` to see some example elements as you make changes.
 
-### The original primitive UI is on [View documentation](https://taniarascia.github.io/primitive)
-
-## Installation
-
-### CSS quick start (easy)
-
-- [Download the stylesheet](https://taniarascia.github.io/primitive/css/main.css) or use the CDN URL: [https://unpkg.com/primitive-ui/dist/css/main.css](https://unpkg.com/primitive-ui/dist/css/main.css).
-- Save the stylesheet and link to it in the head of your project.
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
-```
-
-It's all set to go and your HTML elements will be given sensible default styling.
+## Primitive UI
+The original [primitive UI] and it's [documentation](https://taniarascia.github.io/primitive) is available as a boilerplate/primitive framework for any project and its awesome.
 
 
 
