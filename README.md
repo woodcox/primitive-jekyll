@@ -10,11 +10,13 @@ Demo available: [here](http://cecleeds.github.io/primitive-jekyll/)
 
 
 ## Primitive UI
+
+[![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
+
 The original [primitive UI](https://taniarascia.github.io/primitive) and it's [documentation](https://taniarascia.github.io/primitive) is available as a boilerplate/primitive framework for any project and its awesome. The beauty of Primitive is the ease with which you can create unique designs in a beautiful, simple system.
 
 https://github.com/taniarascia/primitive.git
 
-[![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
 
 ## Installation (not ready yet)
 
@@ -39,7 +41,7 @@ Or install it yourself as:
     $ gem install primitive-jekyll
 
 
-> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: cecleeds/primitive-jekyll` on your `_config.yml` file.
+> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: cecleeds/primitive-jekyll` to your `_config.yml` file.
 
 
 ## Usage
