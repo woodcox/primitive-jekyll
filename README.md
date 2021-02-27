@@ -61,6 +61,7 @@ Primitive-jekyll
 │      ├─── default.html
 │      ├─── home.html
 │      └─── post.html
+├─── pages
 ├─── _posts
 │
 ├─── _sass
