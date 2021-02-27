@@ -78,8 +78,8 @@ Primitive-jekyll
 │             ├─── _helpers.scss
 │             ├─── _layouts.scss
 │             ├─── _navigation.scss
-│             ├─── _navigation.scss
-│             └─── _navigation.scss
+│             ├─── _scaffolding.scss
+│             └─── _tables.scss
 │     
 └─── assets
      │
