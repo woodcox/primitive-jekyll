@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
 
-A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
+Welcome to your **primitive-jekyll** theme! This is where [Primitive UI](https://taniarascia.github.io/primitive) meets [Jekyll](https://jekyllrb.com/). A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
+
+Demo available: [here](http://cecleeds.github.io/primitive-jekyll/)
 
 Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
 
@@ -14,11 +16,6 @@ The original [primitive UI](https://taniarascia.github.io/primitive) and it's [d
 https://github.com/taniarascia/primitive.git
 
 
-
-
-Welcome to your **primitive-jekyll** theme! This is where [Materialize](http://materializecss.com/) meets [Jekyll](https://jekyllrb.com/).
-
-Demo available: [here](http://cecleeds.github.io/primitive-jekyll/)
 
 ## Installation
 
