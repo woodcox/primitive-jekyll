@@ -1,0 +1,4 @@
+---
+layout: testing
+permalink: /testing/
+---
