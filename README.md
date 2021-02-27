@@ -6,15 +6,11 @@ Welcome to your **primitive-jekyll** theme! This is where [Primitive UI](https:/
 
 Demo available: [here](http://cecleeds.github.io/primitive-jekyll/)
 
-Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
-
-You can view `dist/test.html` or `docs/template.html` to see some example elements as you make changes.
 
 ## Primitive UI
 The original [primitive UI](https://taniarascia.github.io/primitive) and it's [documentation](https://taniarascia.github.io/primitive) is available as a boilerplate/primitive framework for any project and its awesome. The beauty of Primitive is the ease with which you can create unique designs in a beautiful, simple system.
 
 https://github.com/taniarascia/primitive.git
-
 
 
 ## Installation
@@ -82,6 +78,10 @@ Primitive-jekyll
           ├─── init.js
           └─── vendor
 ```
+
+Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
+
+You can view `dist/test.html` or `docs/template.html` to see some example elements as you make changes.
 
 This gem offers some *main* layouts that can be used/edited:
 - The `_layouts/default.html`, is the skeleton of the pages, where header,footer, assets are called. It should be used in most of the other layouts,
