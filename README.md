@@ -71,14 +71,13 @@ Primitive-jekyll
 │      │     ├─── _reset.scss
 │      │     └─── _variables.scss
 │      │
-│      └─── _v
-
-│      ├─── _author.scss
-│      ├─── _cards.scss
-│      ├─── _navbar.scss
-│      ├─── _post.scss
-│      ├─── _syntax.scss
-│      ├─── _tags.scss
+│      └─── components
+│             ├─── _buttons.scss
+│             ├─── _forms.scss
+│             ├─── _grid.scss
+│             ├─── _helpers.scss
+│             ├─── _syntax.scss
+│             ├─── _tags.scss
 │     
 └─── assets
      │
