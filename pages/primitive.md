@@ -1,4 +1,4 @@
 ---
 layout: primitive
-permalink: primitive
+permalink: /primitive/
 ---
