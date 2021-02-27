@@ -66,16 +66,20 @@ Primitive-jekyll
 │
 ├─── _sass
 │      ├─── base
-│      │     ├─── mixins.scss
-│      │     ├─── normalize.scss
-│      │     ├─── reset.scss
+│      │     ├─── _mixins.scss
+│      │     ├─── _normalize.scss
+│      │     ├─── _reset.scss
+│      │     └─── _variables.scss
+│      │
+│      └─── _v
+
 │      ├─── _author.scss
 │      ├─── _cards.scss
 │      ├─── _navbar.scss
 │      ├─── _post.scss
 │      ├─── _syntax.scss
 │      ├─── _tags.scss
-│      └─── _variables.html
+│     
 └─── assets
      │
      └─── css
