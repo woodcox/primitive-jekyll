@@ -16,7 +16,7 @@ https://github.com/taniarascia/primitive.git
 
 [![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
 
-## Installation
+## Installation (not ready yet)
 
 Add this line to your Jekyll site's `Gemfile`:
 
