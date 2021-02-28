@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,9 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/prism.css" />
-    <link rel="stylesheet" href="css/example.css" />
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/prism.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/example.css' | relative_url }}" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -1201,8 +1204,8 @@ $code-borders: $borders !default;
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/prism.js"></script>
-    <script src="js/example.js"></script>
+    <script src="{{ 'assets/js/prism.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/example.js' | relative_url }}"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
