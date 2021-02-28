@@ -1,9 +1,12 @@
+---
+---
+
 $(document).ready(function () {
 	$('#eighties').click(function () {
-		$('link[href="css/example.css"]').attr('href', 'css/eighties.css?version=2');
+		$('link[href="{{ 'assets/css/example.css' | relative_url }}"]').attr('href', 'css/eighties.css?version=2');
 	});
 	$('#boring').click(function () {
-		$('link[href="css/eighties.css"]').attr('href', 'css/example.css');
+		$('link[href="{{ 'assets/css/eighties.css ' | relative_url }}"]').attr('href', 'css/example.css');
 	});
 	$(document).on("scroll", onScroll);
 
