@@ -6,7 +6,7 @@ $(document).ready(function () {
 		$('link[href="{{ 'assets/css/example.css' | relative_url }}"]').attr('href', '{{ 'assets/css/eighties.css?version=2' | relative_url }}');
 	});
 	$('#boring').click(function () {
-		$('link[href="{{ 'assets/css/eighties.css' | relative_url }}"]').attr('href', '{{ 'assets/css/example.css?version=2' | relative_url }}');
+		$('link[href="{{ 'assets/css/eighties.css?version=2' | relative_url }}"]').attr('href', '{{ 'assets/css/example.css' | relative_url }}');
 	});
 	$(document).on("scroll", onScroll);
 
