@@ -59,7 +59,7 @@ kramdown:
 
 collections:
 
-# sass
+### sass
 sass:
   sass_dir: '_sass'
   style: compressed
@@ -67,3 +67,14 @@ sass:
 jekyll_get_json:
   - data: cscalendar
     json: 'https://cecleeds.churchsuite.co.uk/embed/calendar/json'
+
+### Compress html settings - http://jch.penibelst.de/
+compress_html:
+  clippings: [all]
+  comments: [all]
+  endings: [all]
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
