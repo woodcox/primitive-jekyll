@@ -6,7 +6,7 @@ Please note this is a work in progress. The theme has not been created yet. This
 
 Welcome to your **primitive-jekyll** theme! This is where [Primitive UI](https://taniarascia.github.io/primitive) meets [Jekyll](https://jekyllrb.com/). A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
 
-Demo available: [here](http://cecleeds.github.io/primitive-jekyll/)
+Demo available: [here](http://woodcock3.github.io/primitive-jekyll/)
 
 
 ## Primitive UI
@@ -41,7 +41,7 @@ Or install it yourself as:
     $ gem install primitive-jekyll
 
 
-> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: cecleeds/primitive-jekyll` to your `_config.yml` file.
+> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: woodcock3/primitive-jekyll` to your `_config.yml` file.
 
 
 ## Usage
@@ -111,7 +111,7 @@ Your blog posts (`*.md` files) should be put in the `_posts` directory.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/cecleeds/primitive-jekyll. This project is welcomes collaboration, but contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/woodcock3/primitive-jekyll. This project is welcomes collaboration, but contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
