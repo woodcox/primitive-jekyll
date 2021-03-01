@@ -1,3 +1,6 @@
+---
+---
+
 /* Primitive */
 
 body {
@@ -293,7 +296,7 @@ article {
 
 @media screen and (min-width: 1080px) {
   header {
-    background: #2a55f1 url('../images/grid.png') no-repeat left center / cover;
+    background: #2a55f1 url('{{ 'docs/images/grid.png' | relative_url }}') no-repeat left center / cover;
     margin: 0;
     padding: 60px 0 100px;
   }
