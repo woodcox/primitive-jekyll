@@ -1,5 +1,7 @@
 # Primitive UI + Jekyll
 
+! ![Primitive + Jekyll](img/primitive-jekyll.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Please note this is a work in progress. The theme has not been created yet. This is what I am working towards. 
