@@ -1,4 +1,4 @@
-# Primitive-Jekyll
+# premitive-jekyll
 
 ![Primitive + Jekyll](assets/img/primitive-jekyll.png)
 
