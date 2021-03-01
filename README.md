@@ -1,6 +1,6 @@
 # Primitive UI + Jekyll
 
-! ![Primitive + Jekyll](img/primitive-jekyll.png)
+! ![Primitive + Jekyll](assets/img/primitive-jekyll.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
