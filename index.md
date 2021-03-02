@@ -1,3 +1,3 @@
 ---
-layout: template
+layout: primitive
 ---
