@@ -1,4 +1,0 @@
----
-layout: primitive
-permalink: /primitive/
----
