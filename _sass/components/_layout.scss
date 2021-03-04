@@ -54,7 +54,7 @@
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: $midnight;
+    background: $primary-color;
     cursor: pointer;
     &:hover {
       background: darken($primary-color, 10%);
