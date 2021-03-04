@@ -27,12 +27,12 @@
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: $midnight;
+    background: $primary-color;
     font-weight: bold;
     cursor: pointer;
     /* Icon */
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken($primary-color, 10%);
     }
     &::after {
       content: "\276F";
@@ -57,7 +57,7 @@
     background: $midnight;
     cursor: pointer;
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken($primary-color, 10%);
     }
   }
 }
@@ -65,7 +65,7 @@
 // :checked
 input:checked {
   + .tab-label {
-    background: darken($midnight, 10%);
+    background: darken($primary-color, 10%);
     &::after {
       transform: rotate(90deg);
     }
