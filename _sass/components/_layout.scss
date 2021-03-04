@@ -1,3 +1,14 @@
 /**
  * Layout
  */
+
+// Accordion
+.accord_row {
+  display:flex;
+  .accord_col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
