@@ -48,7 +48,7 @@
 // :checked
 input:checked {
   + .tab-label {
-    background: darken($midnight, 10%);
+    background: darken($primary-color, 10%);
     &::after {
       transform: rotate(90deg);
     }
