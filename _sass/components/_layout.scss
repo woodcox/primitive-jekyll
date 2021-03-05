@@ -3,15 +3,57 @@
  */
 // accordion_ui
 
-ul.accordion_ui {position: relative; margin: 1.4rem 0!important; border-bottom: 1px solid rgba(0,0,0,0.25); padding-bottom: 0;}
-ul.accordion_ui li {border-top: 1px solid rgba(0,0,0,0.25); list-style: none; margin-left: 0;}
-ul.accordion_ui li input {display: none;}
-ul.accordion_ui li label {display: block; cursor: pointer; padding: 0.75rem 2.4rem 0.75rem 0; margin: 0;}
-ul.accordion_ui li div {display: none; padding-bottom: 1.2rem;}
-ul.accordion_ui li input:checked + label {font-weight: bold;}
-ul.accordion_ui li input:checked + label + div {display: block;}
-ul.accordion_ui li label::before {content: "+"; font-weight: normal; font-size: 130%; line-height: 1.1rem; padding: 0; position: absolute; right: 0.5rem; transition: all 0.15s ease-in-out;}
-ul.accordion_ui li input:checked + label::before {transform: rotate(-45deg);}
+ul.accordion_ui {
+  position: relative;
+  margin: 1.4rem 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: 0;
+
+  li {
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    list-style: none;
+    margin-left: 0;
+
+    input {
+      display: none;
+    }
+
+    label {
+      display: block;
+      cursor: pointer;
+      padding: 0.75rem 2.4rem 0.75rem 0;
+      margin: 0;
+    }
+
+    div {
+      display: none;
+      padding-bottom: 1.2rem;
+    }
+
+    input:checked + label {
+      font-weight: bold;
+
+      + div {
+        display: block;
+      }
+    }
+
+    label::before {
+      content: "+";
+      font-weight: normal;
+      font-size: 130%;
+      line-height: 1.1rem;
+      padding: 0;
+      position: absolute;
+      right: 0.5rem;
+      transition: all 0.15s ease-in-out;
+    }
+
+    input:checked + label::before {
+      transform: rotate(-45deg);
+    }
+  }
+}
 
 // Accordion
 .accord_row {
