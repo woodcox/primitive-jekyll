@@ -81,12 +81,12 @@ ul.accordion_ui {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: $midnight;
+    background: $primary-color;
     font-weight: bold;
     cursor: pointer;
     /* Icon */
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken($primary-color, 10%);
     }
     &::after {
       content: "\276F";
@@ -99,7 +99,7 @@ ul.accordion_ui {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $midnight;
+    color: $primary-color;
     background: white;
     transition: all .35s;
   }
@@ -108,10 +108,10 @@ ul.accordion_ui {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: $midnight;
+    background: $primary-color;
     cursor: pointer;
     &:hover {
-      background: darken($midnight, 10%);
+      background: darken($primary-color, 10%);
     }
   }
   input {
@@ -124,7 +124,7 @@ ul.accordion_ui {
 // :checked
 input:checked {
   + .tab-label {
-    background: darken($midnight, 10%);
+    background: darken($primary-color, 10%);
     &::after {
       transform: rotate(90deg);
     }
