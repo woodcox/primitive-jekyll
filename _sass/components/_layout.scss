@@ -113,6 +113,9 @@ ul.accordion_ui {
       background: darken($primary-color, 10%);
     }
   }
+  input {
+      display: none;
+  }
 }
 
 // :checked
