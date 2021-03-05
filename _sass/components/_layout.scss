@@ -57,24 +57,23 @@ ul.accordion_ui {
   }
 }
 
-// Accordion
-.accord_row {
+// Layout
+.row {
   display:flex;
-  .accord_col {
+  .col {
     flex:1;
     &:last-child {
       margin-left: 1em;
     }
   }
 }
-
 /* Accordion styles */
-.accord_tabs {
+.tabs {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
 }
-.accord_tab {
+.tab {
   width: 100%;
   color: white;
   overflow: hidden;
@@ -82,12 +81,12 @@ ul.accordion_ui {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: $primary-color;
+    background: $midnight;
     font-weight: bold;
     cursor: pointer;
     /* Icon */
     &:hover {
-      background: darken($primary-color, 10%);
+      background: darken($midnight, 10%);
     }
     &::after {
       content: "\276F";
@@ -100,7 +99,7 @@ ul.accordion_ui {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $primary-color;
+    color: $midnight;
     background: white;
     transition: all .35s;
   }
@@ -109,40 +108,28 @@ ul.accordion_ui {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: $primary-color;
+    background: $midnight;
     cursor: pointer;
     &:hover {
-      background: darken($primary-color, 10%);
+      background: darken($midnight, 10%);
     }
   }
   input {
-      display: none;
-  }
-  body {
-  color: $primary-color;
-  background: green;
-  padding: 0 1em 1em;
-  }
-  h1 {
-    margin: 0;
-    line-height: 2;
-    text-align: center;
-  }
-  h2 {
-    margin: 0 0 .5em;
-    font-weight: normal;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
   }
 }
 
 // :checked
 input:checked {
-  + .accord_tab-label {
-    background: darken($primary-color, 10%);
+  + .tab-label {
+    background: darken($midnight, 10%);
     &::after {
       transform: rotate(90deg);
     }
   }
-  ~ .accord_tab-content {
+  ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
   }
