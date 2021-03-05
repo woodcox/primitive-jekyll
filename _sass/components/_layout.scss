@@ -10,7 +10,7 @@ ul.accordion_ui {position: relative; margin: 1.4rem 0!important; border-bottom: 
     div {display: none; padding-bottom: 1.2rem;}
     input:checked + label {font-weight: bold;}
     input:checked + label + div {display: block;}
-    label::before {content: "+"; font-weight: normal; font-size: 130%; line-height: 1.1rem; padding: 0; position: absolute; right: 0.5rem; transition: all 0.15s ease-in-out;}
+    label::before {content: "+"; font-weight: normal; font-size: 130%; line-height: 1.1rem; padding: 0; position: absolute; right: 0.5rem; transition: all 0.35s ease-in-out;}
     input:checked + label::before {transform: rotate(-45deg);}
 
 
