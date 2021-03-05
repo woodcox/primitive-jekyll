@@ -118,6 +118,20 @@ ul.accordion_ui {
   input {
       display: none;
   }
+  body {
+  color: $midnight;
+  background: $clouds;
+  padding: 0 1em 1em;
+  }
+  h1 {
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+  }
+  h2 {
+    margin: 0 0 .5em;
+    font-weight: normal;
+  }
 }
 
 // :checked
