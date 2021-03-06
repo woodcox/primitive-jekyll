@@ -3,12 +3,10 @@
  */
 
 // Main accordion styling
-
 $accordion-color: $button-color;
 $accordion-background: $button-background;
 $accordion-font-color: $font-color;
-$accordion-content-background: white;
-
+$accordion-content-background: $alternate-background;
 
 // accordion-ui layout
 .accordion-ui {
