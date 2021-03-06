@@ -1,14 +1,13 @@
-<h1>Pure CSS Accordion</h1>
 <div class="accordion-ui">
-  {% for item in page.accordion %}
-    <div class="accord-col">
-      <div class="accord-tabs">
+  <div class="accord-col">
+    <div class="accord-tabs">
+      {% for item in page.accordion %}
         <div class="accord-tab">
           <input type="checkbox" id="accordion{{ forloop.index }}">
           <label class="accord-tab-label" for="accordion{{ forloop.index }}">{{ item.title }}</label>
           <div class="accord-tab-content">{{ item.content | markdownify }}</div>
-        </div>  
-      </div>
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+  </div>
 </div>
