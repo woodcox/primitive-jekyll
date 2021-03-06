@@ -8,12 +8,6 @@ $accordion-background: $button-background;
 $accordion-font-color: $font-color;
 $accordion-content-background: $alternate-background;
 
-// General
-body {
-  color: $accordion-color;
-  background: $accordion-content-background;
-  padding: 0 1em 1em;
-}
 // Layout
 .accordion-row {
   display:flex;
