@@ -6,7 +6,7 @@
         <div class="accord-tab">
           <input type="checkbox" id="accordion{{ forloop.index }}">
           <label class="accord-tab-label" for="accordion{{ forloop.index }}">{{ item.title }}</label>
-          <div class="accord-tab-content">{ item.content | markdownify }}</div>
+          <div class="accord-tab-content">{{ item.content | markdownify }}</div>
         </div>  
       </div>
     </div>
