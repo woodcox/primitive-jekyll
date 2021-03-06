@@ -1,11 +1,12 @@
-<div class="accordion-ui">
+<div class="accordion-row">
   <div class="accord-col">
     <div class="accord-tabs">
       {% for item in page.accordion %}
         <div class="accord-tab">
           <input type="checkbox" id="accordion{{ forloop.index }}">
           <label class="accord-tab-label" for="accordion{{ forloop.index }}">{{ item.title }}</label>
-          <div class="accord-tab-content">{{ item.content | markdownify }}</div>
+           <div class="accord-tab-content">{{ item.content | markdownify }}
+           </div>
         </div>
       {% endfor %}
     </div>
