@@ -2,6 +2,46 @@
  * Layout
  */
 
+// Main button styling
+%buttons {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: $button-border-width $button-border-style $button-border-color;
+  border-radius: $button-border-radius;
+  background: $button-background;
+  color: $button-color;
+  font-weight: $button-font-weight;
+  font-family: $button-font-family;
+  font-size: $button-font-size;
+  text-transform: $button-text-transform;
+  padding: 0.75rem 1.25rem;
+  margin: 0 0 0.5rem 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+}
+
+// Buttons on hover
+%buttons-hover {
+  border: $button-border-width $button-border-style darken($button-border-color, 10%);
+  background: $button-background-hover;
+  color: $button-color;
+  text-decoration: none;
+}
+
+// Buttons on focus
+%buttons-focus {
+  border: $button-border-width $button-border-style darken($button-border-color, 10%);
+  background: darken($button-background, 10%);
+  color: $button-color;
+  text-decoration: none;
+}
+
+
+
+
 // accordion-ui layout
 .accordion-ui {
   display:flex;
@@ -12,7 +52,7 @@
     }
   }
 }
-/* Accordion styles */
+/* Applying accordion styles */
 .accord-tabs {
   border-radius: 8px;
   overflow: hidden;
@@ -20,18 +60,18 @@
 }
 .accord-tab {
   width: 100%;
-  color: white;
+  color: $button-color;
   overflow: hidden;
   &-label {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: $primary-color;
+    background: $button-background;
     font-weight: bold;
     cursor: pointer;
     /* Icon */
     &:hover {
-      background: darken($primary-color, 10%);
+      background: darken($button-background, 10%);
     }
     &::after {
       content: "\276F";
@@ -53,10 +93,10 @@
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: $primary-color;
+    background: $button-background;
     cursor: pointer;
     &:hover {
-      background: darken($primary-color, 10%);
+      background: darken($button-background, 10%);
     }
   }
   input {
@@ -69,7 +109,7 @@
 // :checked
 input:checked {
   + .accord-tab-label {
-    background: darken($primary-color, 10%);
+    background: darken($button-background, 10%);
     &::after {
       transform: rotate(90deg);
     }
