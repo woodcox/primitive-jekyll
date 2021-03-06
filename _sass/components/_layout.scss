@@ -8,8 +8,14 @@ $accordion-background: $button-background;
 $accordion-font-color: $font-color;
 $accordion-content-background: $alternate-background;
 
-// accordion-ui layout
-.accordion-ui {
+// General
+body {
+  color: $accordion-color;
+  background: $accordion-content-background;
+  padding: 0 1em 1em;
+}
+// Layout
+.accordion-row {
   display:flex;
   .accord-col {
     flex:1;
@@ -18,7 +24,7 @@ $accordion-content-background: $alternate-background;
     }
   }
 }
-/* Applying accordion styles */
+/* Accordion styles */
 .accord-tabs {
   border-radius: 8px;
   overflow: hidden;
@@ -26,7 +32,7 @@ $accordion-content-background: $alternate-background;
 }
 .accord-tab {
   width: 100%;
-  color: $accordion-color; 
+  color: $accordion-color;
   overflow: hidden;
   &-label {
     display: flex;
