@@ -58,9 +58,9 @@ ul.accordion_ui {
 }
 
 // Layout
-.row {
+.accordion-ui {
   display:flex;
-  .col {
+  .accord-col {
     flex:1;
     &:last-child {
       margin-left: 1em;
@@ -68,12 +68,12 @@ ul.accordion_ui {
   }
 }
 /* Accordion styles */
-.tabs {
+.accord-tabs {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
 }
-.tab {
+.accord-tab {
   width: 100%;
   color: white;
   overflow: hidden;
@@ -123,13 +123,13 @@ ul.accordion_ui {
 
 // :checked
 input:checked {
-  + .tab-label {
+  + .accord-tab-label {
     background: darken($primary-color, 10%);
     &::after {
       transform: rotate(90deg);
     }
   }
-  ~ .tab-content {
+  ~ .accord-tab-content {
     max-height: 100vh;
     padding: 1em;
   }
