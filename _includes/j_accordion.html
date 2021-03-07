@@ -1,8 +1,8 @@
-<ul class="accordion-ui align-center">
+<div class="accordion-ui">
   {% for item in page.accordion %}
     <li><input id="accordion{{ forloop.index }}" type="checkbox" />
       <label for="accordion{{ forloop.index }}"><strong>{{ item.title }}</strong></label>
       <div class="accord-content">{{ item.content | markdownify }}</div>
     </li>
   {% endfor %}
-</ul>
+</div>
