@@ -47,14 +47,14 @@ $accordion-content-background: $alternate-background;
       transition: all .35s;
     }
   }
-  &-content p{
+  &-content {
     max-height: 0;
     padding: 0 1em;
     color: $accordion-font-color;
     background: $accordion-content-background;
     transition: all .35s;
   }
-  &-close p{
+  &-close, p {
     display: flex;
     justify-content: flex-end;
     padding: 1em;
