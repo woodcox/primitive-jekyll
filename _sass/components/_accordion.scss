@@ -3,8 +3,8 @@ $accordion-color: $button-color;
 $accordion-background: $button-background;
 $accordion-font-color: $font-color;
 $accordion-content-background: $alternate-background;
-$accordion-accent-colour: green;
-$accordion-border-radius: 4px !default;
+$accordion-accent-colour: $accent-button-background;
+$accordion-border-radius: $border-radius;
 
 /* Accordion styles */
 
