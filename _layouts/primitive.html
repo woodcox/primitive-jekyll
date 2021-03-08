@@ -1,5 +1,7 @@
 ---
 layout: compress
+accordion-type:
+accordion: 
 ---
 
 <!DOCTYPE html>
@@ -8,10 +10,10 @@ layout: compress
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-    <title>Primitive UI - CSS Framework &amp; Sass Boilerplate</title>
+    <title>Primitive-Jekyll - A Jekyll theme &amp; Sass Boilerplate</title>
 
     <meta name="author" content="Tania Rascia" />
-    <meta name="description" content="A simple Sass starter pack." />
+    <meta name="description" content="A simple Sass starter Jekyll theme." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
@@ -28,10 +30,10 @@ layout: compress
   <body>
     <header class="text-center vertical-center">
       <div class="small-container">
-        <h1>Primitive</h1>
+        <h1>Primitive-Jekyll</h1>
         <p>
-          Primitive is a minimalist Sass boilerplate that provides helpful, browser-consistent
-          styling for default HTML elements - buttons, forms, tables, lists, and typography.
+          Primitive-Jekyll is a Jekyll theme built using Tania Rascia awesome minimalist Sass boilerplate called Primitive UI. The theme has browser-consistent
+          styling for default HTML elements - buttons, forms, tables, lists, and typography. Plus pure CSS accordions.......
         </p>
         <p>
           <a
@@ -381,6 +383,18 @@ layout: compress
                 />
                 <input type="button" value="Input" class="full-button round-button" />
                 <a class="full-button muted-button button">Link</a>
+              </article>
+            </section>
+
+            <section id="accordions">
+              <article>
+                <h2>Accordions</h2>
+                <p>
+                  Pure CSS accordion
+                </p>
+
+{% include accordion.html %}
+
               </article>
             </section>
 
