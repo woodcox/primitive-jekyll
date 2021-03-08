@@ -1,6 +1,7 @@
 ---
 layout: test
 permalink: /test/
+accordion-type: accent-
 accordion: 
   - title: this is item 1
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
