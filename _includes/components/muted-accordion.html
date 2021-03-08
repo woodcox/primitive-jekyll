@@ -1,8 +1,2 @@
 <div class="muted-accordion">
-  {% for item in page.accordion %}
-    <li><input id="muted-accordion{{ forloop.index }}" type="checkbox" />
-      <label for="muted-accordion{{ forloop.index }}"><strong>{{ item.title }}</strong></label>
-      <div class="accord-content">{{ item.content | markdownify }}</div>
-    </li>
-  {% endfor %}
-</div>
+{% includes_components/accordion-ui.html %}
