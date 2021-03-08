@@ -87,3 +87,41 @@
     }
 }
 
+// Muted accordion
+.muted-accordion { 
+    @extend %accordion-ui;
+    li label {
+        background: $muted-background;
+        border: $muted-border;
+        color: $muted-color;
+        &:hover {
+          color: $muted-color-hover;
+          border: $muted-border-hover;
+          background: $muted-background-hover;
+        }
+    }
+    li input:checked + label {
+        color: $muted-color-hover;
+        border-top: $muted-border-hover;
+        border-left: $muted-border-hover;
+        border-right: $muted-border-hover;
+        border-bottom: 0;
+        background: $muted-background-hover;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: $accordion-border-radius;
+        border-top-left-radius: $accordion-border-radius;
+        + .accord-content {
+           border: $muted-border-hover;
+           border-top: 0;
+           border-left: $muted-border-hover;
+           border-right: $muted-border-hover;
+           border-bottom: $muted-border-hover;
+           border-bottom-right-radius: $accordion-border-radius;
+           border-bottom-left-radius: $accordion-border-radius;
+           border-top-right-radius: 0;
+           border-top-left-radius: 0;
+           background: $muted-background;
+       }
+    }
+}
