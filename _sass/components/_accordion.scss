@@ -1,3 +1,20 @@
+$accordion-color: white;
+$accordion-background: blue;
+$accordion-font-color: grey;
+$accordion-content-background: white;
+$accordion-border-color: 1px solid darken($accordion-background, 10%) !default;
+$accordion-accent-color: green;
+$accordion-border-radius: 4px !default;
+$accent-color: #cdcdcd !default;
+$accent-accordion-border-color: 1px solid darken($accordion-accent-color, 10%) !default;
+$muted-border: 1px solid $accent-color !default;
+$muted-border-hover: 1px solid darken($accent-color, 30%) !default;
+$muted-background: transparent !default;
+$muted-background-hover: transparent !default;
+$muted-color: darken($accent-color, 50%) !default;
+$muted-color-hover: darken($accent-color, 50%) !default;
+
+
 /* Accordion styles */
 
 %accordion-ui {
@@ -21,7 +38,7 @@
       color: $accordion-color;
       background: $accordion-background;
       border-radius: $accordion-border-radius;
-      border-bottom: 2px solid;
+      margin-bottom: 3px;
       padding-left: 1.1rem;
       &:hover {
           background: darken($accordion-background, 10%);
@@ -37,9 +54,22 @@
 
     input:checked + label {
       background: darken($accordion-background, 10%);
-      + div {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: $accordion-border-radius;
+      border-top-left-radius: $accordion-border-radius;
+      + .accord-content {
         display: block;
+        border: darken($accordion-background, 10%);
         color: $accordion-font-color;
+        border-left: $accordion-border-color;
+        border-right: $accordion-border-color;
+        border-bottom: $accordion-border-color;
+        border-bottom-right-radius: $accordion-border-radius;
+        border-bottom-left-radius: $accordion-border-radius;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin-bottom: 4px;
       }
     }
 
@@ -69,13 +99,18 @@
 .accent-accordion { 
     @extend %accordion-ui;
     li label {
-        background: $accordion-accent-colour;
+        background: $accordion-accent-color;
         &:hover {
-          background: darken($accordion-accent-colour, 10%)
+          background: darken($accordion-accent-color, 10%)
         }
     }
     li input:checked + label {
-      background: darken($accordion-accent-colour, 10%);
+      background: darken($accordion-accent-color, 10%);
+      + .accord-content {
+        border-left: $accent-accordion-border-color;
+        border-right: $accent-accordion-border-color;
+        border-bottom: $accent-accordion-border-color;
+      }
     }
 }
 
@@ -84,6 +119,12 @@
     @extend %accordion-ui;
     li label {
         border-radius: 0;
+    }
+    li input:checked + label {
+        border-radius: 0;
+        + .accord-content {
+          border-radius: 0;
+        }
     }
 }
 
@@ -107,20 +148,12 @@
         border-right: $muted-border-hover;
         border-bottom: 0;
         background: $muted-background-hover;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-        border-top-right-radius: $accordion-border-radius;
-        border-top-left-radius: $accordion-border-radius;
         + .accord-content {
            border: $muted-border-hover;
            border-top: 0;
            border-left: $muted-border-hover;
            border-right: $muted-border-hover;
            border-bottom: $muted-border-hover;
-           border-bottom-right-radius: $accordion-border-radius;
-           border-bottom-left-radius: $accordion-border-radius;
-           border-top-right-radius: 0;
-           border-top-left-radius: 0;
            background: $muted-background;
        }
     }
