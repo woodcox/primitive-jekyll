@@ -130,8 +130,10 @@ $accordion-color: $button-color;
 $accordion-background: $button-background;
 $accordion-font-color: $font-color;
 $accordion-content-background: $alternate-background;
+$accordion-border-color: 1px solid darken($accordion-background, 10%) !default;
 $accordion-accent-colour: $accent-button-background;
 $accordion-border-radius: $border-radius;
+$accent-accordion-border-color: 1px solid darken($accordion-accent-color, 10%) !default;
 
 //==============================================================================
 // Forms
