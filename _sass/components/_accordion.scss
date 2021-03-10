@@ -150,7 +150,8 @@
         border-radius: $round-accordion;
     }
     li input:checked + label {
-        border-radius: 0;
+        border-top-right-radius: $round-accordion;
+        border-top-left-radius: $round-accordion;
         + .accord-content {
           border-bottom-right-radius: $round-accordion;
           border-bottom-left-radius: $round-accordion;
