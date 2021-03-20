@@ -12,7 +12,7 @@ permalink: /fonttest/
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <h1> Sanchez font, 600 </h1>
+  <h1> SANCHEZ FONT, 900 </h1>
   <p> Montserrat font, 400 regular </p>
 </body>
 </html>
