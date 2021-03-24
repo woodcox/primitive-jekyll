@@ -14,7 +14,7 @@ A cookie is stored on your computer or mobile device by a website's server. Only
 
 ### Google Analytics
 
-This website uses Google Analytics. This happens only if you approve third party analytics cookies. If you approve Google Analytics will stores several cookies on your computer or mobile. However, we have taken all actions we can to limit the power of Google. We have configured Google Analytics to anonymize IP addresses and use SSL at all times. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use {{ site.url }}. This helps us evaluate how you use our website, compile statistical reports on activity, and improve our content and website performance.
+This website uses Google Analytics. This happens only if you approve third party analytics cookies. If you approve Google Analytics will stores several cookies on your computer or mobile. However, we have taken all actions we can to limit the power of Google. We have configured Google Analytics to anonymize IP addresses and use SSL at all times. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use {{ site.url | remove_first: "https://" }}. This helps us evaluate how you use our website, compile statistical reports on activity, and improve our content and website performance.
 
 The information we collect includes:
 
