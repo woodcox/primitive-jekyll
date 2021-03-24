@@ -1,7 +1,7 @@
 <footer class="footer text-center">
   <div class="medium-container flex-row">
     <div class="flex-small footer-feature">
-      <h4> Pages </h4>
+      <h4> Policies </h4>
       <p class="feature-description"><a href="/privacy/">Privacy</a> | <a href="/accessibility/">Accessibility</a> | <a href="/cookies/">Cookies</a></p>
       <p class="feature-description"><a href="/we-believe/">Our beliefs</a> | <a href="/safeguarding/">Safeguarding</a></p>
     </div>
