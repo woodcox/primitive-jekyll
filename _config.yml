@@ -19,6 +19,7 @@ highlighter: rouge
 title:              "City-Jekyll"
 keywords:           "City, evangelical, church, Leeds, best, christian, Jesus, bible, gospel, Christ, God, Faith, Lord"
 description:        "A Jekyll theme &amp; Sass Boilerplate"
+author:             "woodcock3"
 source_link:        "https://github.com/city-jekyll"
 favicon:            "/assets/img/favicon/favicon.ico"
 favicon_16:         "/assets/img/favicon/favicon-16x16.png"
