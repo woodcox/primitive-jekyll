@@ -16,10 +16,10 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:              "City Evangelical Church"
+title:              "City-Jekyll"
 keywords:           "City, evangelical, church, Leeds, best, christian, Jesus, bible, gospel, Christ, God, Faith, Lord"
-description:        "We are a bible belieiving church in Beeston, Leeds who proclaim that Jesus is Lord, raised for the dead and the gospel is good news!"
-source_link:        "https://github.com/cecleeds"
+description:        "A Jekyll theme &amp; Sass Boilerplate"
+source_link:        "https://github.com/city-jekyll"
 favicon:            "/assets/img/favicon/favicon.ico"
 favicon_16:         "/assets/img/favicon/favicon-16x16.png"
 favicon_32:         "/assets/img/favicon/favicon-32x32.png"
