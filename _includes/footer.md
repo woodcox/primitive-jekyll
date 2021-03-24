@@ -8,7 +8,7 @@
     <div class="flex-small footer-feature">
       <h4> Credits </h4>
       <p class="footer-feature-description"><i class="fa fa-copyright" aria-hidden="true" style="color:white"></i> City Evangelical Church 2021</p>
-      <p class="footer-feature-description">Inspired by <a href"https://taniarascia.github.io/primitive/" target="_blank">Primitive UI & <a href="https://github.com/t413/SinglePaged" target="_blank">SinglePaged theme</a></p>
+      <p class="footer-feature-description">Inspired by <a href"https://taniarascia.github.io/primitive/" target="_blank">Primitive UI</a> & <a href="https://github.com/t413/SinglePaged" target="_blank">SinglePaged theme</a></p>
       <p class="footer-feature-description">Powered by <a href="https://www.github.com" target="_blank">GitHub <i class="fa fa-github" aria-hidden="true" style="color:white"></i></a></p>
     </div> 
   </div>
