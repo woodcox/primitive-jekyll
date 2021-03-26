@@ -35,26 +35,11 @@ google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable
 colors:
   white:        '#f8f8f8'
   black:        '#2e2e2e'
-  intro:        '#428bca'
-  events:       '#ed7950'
-  imnew:        '#66b266'
-  aboutus:      '#5ea06e'
-  sermons:      '#578e77'
-  video:        '#4f7c80'
-  thursday:     '#486a89'
-  friday:       '#415992'
-  saturday-two: '#39479b'
-  contacts:     '#3035A4'
   ckyellow:     '#febd2e'
   ckblue:       '#01a8ff'
   teal:         '#009688'
-  mint:       '#6cc99c'
-  peach:      '#e57373'
-  pink:       '#e91e63'
-  darkpink:   '#c2185b'
-  purple:     '#c869bf'
-  cityorange: '#f29526'
-  cityblue:   '#009ddf'
+  cityorange:   '#f29526'
+  cityblue:     '#009ddf'
 
 kramdown:
   auto_ids:  false
@@ -66,6 +51,7 @@ sass:
   sass_dir: '_sass'
   style: compressed
 
+### Import a json feed as data
 jekyll_get_json:
   - data: cscalendar
     json: 'https://cecleeds.churchsuite.co.uk/embed/calendar/json'
