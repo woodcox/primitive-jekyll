@@ -1,4 +1,4 @@
-# primitive-jekyll
+# city-jekyll
 
 ![Primitive + Jekyll](assets/img/primitive-jekyll.png)
 
@@ -6,7 +6,7 @@
 
 Please note this is a work in progress. The theme has not been created yet. This is what I am working towards. 
 
-Welcome to your **primitive-jekyll** theme! This is where [Primitive UI](https://taniarascia.github.io/primitive) meets [Jekyll](https://jekyllrb.com/). A front-end design toolkit built with Jekyll & Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
+Welcome to the **city-jekyll** theme! This is the theme for [City Evangelical Church](https://cecleeds.co.uk). It's built using [Jekyll](https://jekyllrb.com/) and [Primitive UI](https://taniarascia.github.io/primitive) which is an front-end design toolkit built with Sass for developing responsive static websites. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
 
 Demo available: [here](http://woodcock3.github.io/primitive-jekyll/)
 
@@ -25,13 +25,13 @@ https://github.com/taniarascia/primitive.git
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "primitive-jekyll"
+gem "city-jekyll"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: primitive-jekyll
+theme: city-jekyll
 ```
 
 And then execute:
@@ -40,17 +40,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install primitive-jekyll
+    $ gem install city-jekyll
 
 
-> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: woodcock3/primitive-jekyll` to your `_config.yml` file.
+> Since [November 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) you can use this theme by adding: `remote_theme: woodcock3/city-jekyll` to your `_config.yml` file.
 
 
 ## Usage
 
 ### Project tree:
 ```
-Primitive-jekyll    
+City-jekyll    
 │
 ├─── _includes   
 |      ├─── author.html
@@ -125,11 +125,16 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 ## Credits
 
-This theme was inspired by [Tania Rascia](https://www.taniarascia.com). Tania also credits Dave Gamache for building [Skeleton CSS](http://getskeleton.com/), the original inspiration for building Primitive and understanding responsive CSS.
+This theme was inspired by: 
+  - [Tania Rascia](https://www.taniarascia.com)
+  - [SinglePaged](http://github.io/t413/SinglePaged) built by
+  - Dave Gamache for building [Skeleton CSS](http://getskeleton.com/)
 
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). However the following directory and its content is copyright of City Evangelical Church. You may not reuse anything therein without the church's written permission:
+
+    /img
 
 
