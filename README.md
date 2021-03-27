@@ -8,8 +8,6 @@ Welcome to the **city-jekyll** theme! This is the theme for [City Evangelical Ch
 
 Demo available: [here](http://woodcock3.github.io/primitive-jekyll/)
 
-![Primitive + Jekyll](assets/img/primitive-jekyll.png)
-
 ## Primitive UI
 
 [![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
