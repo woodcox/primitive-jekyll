@@ -1,7 +1,5 @@
 # city-jekyll
 
-![Primitive + Jekyll](assets/img/primitive-jekyll.png)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Please note this is a work in progress. The theme has not been created yet. This is what I am working towards. 
@@ -10,6 +8,7 @@ Welcome to the **city-jekyll** theme! This is the theme for [City Evangelical Ch
 
 Demo available: [here](http://woodcock3.github.io/primitive-jekyll/)
 
+![Primitive + Jekyll](assets/img/primitive-jekyll.png)
 
 ## Primitive UI
 
