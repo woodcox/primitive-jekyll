@@ -132,6 +132,6 @@ This theme was inspired by:
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). However the following directory and its content is copyright of City Evangelical Church. You may not reuse anything therein without the church's written permission:
 
-    /img
+    /assets/img
 
 
