@@ -8,7 +8,7 @@ layout: default
   <div class="medium-container">
   {% for page in webpage %}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-    <div id="{{id}}" class="section p-{{id}}">
+    <section id="{{id}}" class="section p-{{id}}">
       <article>
         {% if page.title %}
         <h2>{{ page.title }}</h2>
