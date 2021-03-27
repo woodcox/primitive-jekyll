@@ -11,7 +11,7 @@ layout: default
     <section id="{{id}}" class="section p-{{id}}">
       <article>
         {% if page.title %}
-        <h{{ page.heading }}>{{ page.title }}</h{{ page.heading }}>
+        <h{{ page.heading }}>{{ page.title | upcase }}</h{{ page.heading }}>
         {% endif %}
         <div class="{{ page.container-size }}-container {{ page.style }}">
           {{ page.content }}
