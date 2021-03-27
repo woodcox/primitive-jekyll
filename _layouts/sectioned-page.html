@@ -1,7 +1,9 @@
+---
+layout: default
+---
+
 {% assign type = page.collection_type %}
 {% assign webpage = site.documents | where: "collection_type", type %}
-{% include collectionnav.html %}
-
 <main class="content" id="main-content">
   <div class="medium-container">
   {% for page in webpage %}
