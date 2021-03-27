@@ -125,9 +125,9 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 ## Credits
 
 This theme was inspired by: 
-  - [Tania Rascia](https://www.taniarascia.com)
-  - [SinglePaged](http://github.io/t413/SinglePaged) built by
-  - Dave Gamache for building [Skeleton CSS](http://getskeleton.com/)
+  - [Tania Rascia](https://www.taniarascia.com) and her [Primitive UI](https://taniarascia.github.io/primitive)
+  - [Tim O'Brien](http://t413.com) for creating [SinglePaged](http://github.io/t413/SinglePaged) jekyll site
+  - [Dave Gamache](http://davegamache.com) for building [Skeleton CSS](http://getskeleton.com/)
 
 
 ## License
