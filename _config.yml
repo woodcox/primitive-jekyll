@@ -44,7 +44,7 @@ colors:
 kramdown:
   auto_ids:  false
 
-collections_dir: my_collections
+collections_dir: structure
 
 collections:
   sunday:
