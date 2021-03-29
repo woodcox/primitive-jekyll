@@ -801,3 +801,9 @@ $fa-youtube:'viewBox="596 -596 1792 1792"><path d="M1656,581c-15.3,0-30.3,7.3-45
     @include fa($fa-github, red, 18px);
   }
 }
+.copyright-icon {
+  &:before{
+    content: '';
+    @include fa($fa-copyright, red, 18px);
+  }
+}
