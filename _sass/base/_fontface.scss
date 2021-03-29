@@ -10,12 +10,16 @@
   font-display: swap;
 }
 /* font awesome */
-$fontawesome_path: "../webfonts" !default
+$fontawesome_path: "../webfonts"
 
 @font-face {
   font-family: 'FontAwesome';
-  src: font-url('#{$fontawesome_path}/fontawesome-webfont.eot')
-  src: font-url('#{$fontawesome_path}/fontawesome-webfont.eot?#iefix') format("embedded-opentype"), font-url('#{$fontawesome_path}/fontawesome-webfont.woff') format("woff"), font-url('#{$fontawesome_path}/fontawesome-webfont.ttf') format("truetype")
+  src: url('#{$fontawesome_path}/fa-regular-400.eot');
+  src: url('#{$fontawesome_path}/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontawesome_path}/fa-regular-400.woff2') format('woff2'),
+  url('#{$fontawesome_path}/fa-regular-400.woff') format('woff'),
+  url('#{$fontawesome_path}/fa-regular-400.ttf') format('truetype'),
+  url('#{$fontawesome_path}/fa-regular-400.svg#fontawesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
