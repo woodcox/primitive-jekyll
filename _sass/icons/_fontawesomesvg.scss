@@ -1,3 +1,4 @@
+/* https://github.com/reskwer/fontAwesome-SCSS */
 @mixin fa ($icon: $fa-user, $color: #000, $size: 16px){
 	$svg: 'data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 596 -596 1792 1792;" xml:space="preserve" fill="#{$color}" #{$icon}';
 	content: '\00A0';
