@@ -798,12 +798,12 @@ $fa-youtube:'viewBox="596 -596 1792 1792"><path d="M1656,581c-15.3,0-30.3,7.3-45
 .github-icon {
   &:after{
     content: '';
-    @include fa($fa-github, red, 18px);
+    @include fa($fa-github, black);
   }
 }
 .copyright-icon {
   &:before{
     content: '';
-    @include fa($fa-copyright, red, 18px);
+    @include fa($fa-copyright);
   }
 }
