@@ -21,6 +21,14 @@ $fontawesome_path: '../webfonts/fa-icons';
   font-weight: normal;
   font-style: normal;
 }
+%icon{
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  line-height: 1;
+}
 @mixin icon($icon) {
   @extend %icon
   content: $icon;
@@ -30,14 +38,6 @@ $fontawesome_path: '../webfonts/fa-icons';
     +icon($icon);
     padding-right: $fa-padding;
   }
-}
-%icon {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: inherit;
-  line-height: 1;
 }
 /* everything as of 4.4.0 */
 $icon-500px: "\f26e";
