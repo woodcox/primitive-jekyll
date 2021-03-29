@@ -25,10 +25,10 @@ $fontawesome_path: '../webfonts/fa-icons';
   @extend %icon;
   content: $icon;
 }
-@mixin icon-before($icon, $padding: 0) {
+@mixin icon-before($icon, $fa-padding: 0) {
   &:before {
     +icon($icon);
-    padding-right: $padding;
+    padding-right: $fa-padding;
   }
 }
 %icon {
