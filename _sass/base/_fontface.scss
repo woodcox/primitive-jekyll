@@ -17,7 +17,7 @@ $fontawesome_path: '../webfonts/fa-icons';
   src: local(''),
        url('#{$fontawesome_path}/fontawesome-webfont.woff2') format('woff2'),
        url('#{$fontawesome_path}/fontawesome-webfont.woff') format('woff'),
-       url('#{$fontawesome_path}/fontawesome-webfont.ttf') format('truetype'),
+       url('#{$fontawesome_path}/fontawesome-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
