@@ -14,11 +14,15 @@ name: "CodeQL"
 on:
   push:
     branches: [ master ]
+    paths-ignore: 
+      - 'Gemfile'
+      - 'README.md'
+      - 'LICENSE.txt' 
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ master ]
   schedule:
-    - cron: '18 19 * * 1'
+    - cron: '43 20 * * 4'
 
 jobs:
   analyze:
@@ -65,3 +69,4 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+
