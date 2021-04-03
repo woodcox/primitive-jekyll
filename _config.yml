@@ -50,7 +50,7 @@ collections:
   sunday:
     output: true
     permalink: /sunday/
-  documentation:
+  docs:
     output: true
     permalink: /docs/
   example2:
