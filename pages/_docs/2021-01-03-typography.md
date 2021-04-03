@@ -20,11 +20,9 @@ The font size is set to <code>1rem</code> on the <code>html</code> element, so a
 >Blockquote is set to have a left border, with the browser default padding removed.
 > A <code>cite</code> will be right aligned and italicized.
 
-~~~
-{% highlight html %}
+~~~ html
 <blockquote>
   <p>Keep it secret. Keep it safe.</p>
   <cite>Gandalf the Gray</cite>
 </blockquote>
-{% endhighlight %}
 ~~~
