@@ -1,7 +1,11 @@
 ---
+title: "Typography"
+collection_type: "documentation"
+layout: sectioned-page
+container-size: medium
+heading: 2
 ---
 
-Typography
 The font size is set to <code>1rem</code> on the <code>html</code> element, so all font sizing will cascade from the root. Headings all have the same line-height and margins, and only the font size is individually defined.
 
 # Heading 1
