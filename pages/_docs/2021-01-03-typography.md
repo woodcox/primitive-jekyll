@@ -1,6 +1,6 @@
 ---
 title: "Typography"
-collection_type: "documentation"
+collection_type: "docs"
 layout: sectioned-page
 container-size: medium
 heading: 2
