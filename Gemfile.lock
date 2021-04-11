@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/woodcock3/jekyll-get-json
+  revision: 3b47d71972b17b08dc20a6c3a3f9afbcdcfe3be8
+  specs:
+    jekyll-get-json (1.0.0)
+      deep_merge (~> 1.2)
+      jekyll (>= 3.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,9 +52,6 @@ GEM
       sprockets (~> 2.10)
       sprockets-helpers
       sprockets-sass
-    jekyll-get-json (1.0.0)
-      deep_merge (~> 1.2)
-      jekyll (>= 3.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
@@ -101,7 +106,7 @@ DEPENDENCIES
   autoprefixer-rails
   jekyll
   jekyll-assets
-  jekyll-get-json
+  jekyll-get-json!
 
 BUNDLED WITH
    2.2.16
