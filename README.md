@@ -1,12 +1,12 @@
-# city-jekyll
+# primitive-jekyll
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Please note this is a work in progress. The theme has not been created yet. This is what I am working towards. 
 
-Welcome to the **city-jekyll** theme! This is the theme for [City Evangelical Church](https://cecleeds.co.uk) website. It's built using [Jekyll](https://jekyllrb.com/) and [Primitive UI](https://taniarascia.github.io/primitive). The theme is a front-end design toolkit for developing responsive static websites with helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
+Welcome to the **primirive-jekyll** theme! This is the theme for [City Evangelical Church](https://cecleeds.co.uk) website. It's built using [Jekyll](https://jekyllrb.com/) and [Primitive UI](https://taniarascia.github.io/primitive). The theme is a front-end design toolkit for developing responsive static websites with helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
 
-Demo available: [here](http://woodcock3.github.io/primitive-jekyll/)
+Demo available: [here](http://woodcox.github.io/primitive-jekyll/)
 
 ## Primitive UI
 
@@ -110,7 +110,7 @@ Your blog posts (`*.md` files) should be put in the `_posts` directory.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/woodcock3/primitive-jekyll. This project is welcomes collaboration, but contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/woodcox/primitive-jekyll. This project is welcomes collaboration, but contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
